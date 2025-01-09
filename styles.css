@@ -164,3 +164,22 @@ padding: 97px 80px;
 .reverse-card > .card-context{
   order: 2;
 }
+
+/* Inspiration Section */
+.inspiration-context{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 90px;
+}
+.inspa-desc{
+  width: 70%;
+}
+.y-video{
+  width: 80%;
+  /* flex-basis: 90%; */
+  height: 320px;
+}
