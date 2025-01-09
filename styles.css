@@ -28,22 +28,22 @@
   margin-bottom: 40px;
 }
 
-main{
+main {
   width: 70%;
   margin: 0 auto;
 }
 
-main section{
+main section {
   margin-top: 74px;
 }
-.secondary{
+.secondary {
   color: rgba(13, 19, 33, 0.7);
 }
-.sub-title{
+.sub-title {
   font-size: 20px;
   margin-bottom: 15px;
 }
-.btn{
+.btn {
   background: transparent;
   padding: 10px 29px;
   border-radius: 7px;
@@ -116,28 +116,26 @@ nav {
   border: none;
 }
 
-
-
 /* why web dev */
-.why-web-dev{
-background-color: rgb(246, 248, 250);
-border-radius: 9px;
-padding: 97px 80px;
+.why-web-dev {
+  background-color: rgb(246, 248, 250);
+  border-radius: 9px;
+  padding: 97px 80px;
 }
-.dev-context-intro{
+.dev-context-intro {
   text-align: center;
 }
-.dev-description{
+.dev-description {
   margin-bottom: 40px;
 }
-.dev-cards{
+.dev-cards {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  gap: 30px
+  gap: 30px;
 }
 
-.card{
+.card {
   background-color: white;
   border-radius: 9px;
   display: flex;
@@ -145,28 +143,28 @@ padding: 97px 80px;
   justify-content: space-between;
   align-items: center;
 }
-.card-context{
+.card-context {
   flex-basis: 50%;
 }
-.card-img{
+.card-img {
   /* flex-basis: 0%; */
 }
-.card-btn{
+.card-btn {
   margin-top: 15px;
 }
-.card-description{
-  color: rgba(13, 19, 33, 0.7);;
+.card-description {
+  color: rgba(13, 19, 33, 0.7);
 }
-.reverse-card{
+.reverse-card {
   justify-content: flex-start;
   gap: 15px;
 }
-.reverse-card > .card-context{
+.reverse-card > .card-context {
   order: 2;
 }
 
 /* Inspiration Section */
-.inspiration-context{
+.inspiration-context {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -175,11 +173,94 @@ padding: 97px 80px;
   gap: 25px;
   margin-bottom: 90px;
 }
-.inspa-desc{
+.inspa-desc {
   width: 70%;
+  text-align: center;
 }
-.y-video{
+.y-video {
   width: 80%;
   /* flex-basis: 90%; */
   height: 320px;
 }
+
+/* Current Target Contex */
+.current-target{
+  /* background-color: bisque; */
+}
+.current-target-context {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 15px;
+}
+.ct-desc{
+  background-color: aqua;
+  text-align: center;
+  font-size: 14px;
+  padding: 0px 190px 50px 190px;
+}
+.ct-skills-main{
+  display: flex;
+  gap: 17px;
+}
+.ct-skill:nth-child(1){
+  background-color: rgba(255, 229, 182, 0.39);
+}
+.ct-skill:nth-child(2){
+  background-color: rgba(182, 214, 255, 0.267);
+}
+.ct-skill:nth-child(3){
+  background-color: rgba(228, 182, 255, 0.363);
+}
+
+.ct-skill{
+  /* background-color: bisque; */
+  flex-basis: 30%;
+  border-radius: 12px;
+  padding: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  font-size: 12px;
+}
+
+/* Nest Target Skill */
+.nt-context{
+  /* display: flex;
+  flex-direction: column;
+  gap: 50px; */
+}
+.nt-intro{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.nt-skills{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+}
+.nt-skill-card{
+  display: flex;
+  gap: 20px;
+  border-radius: 9px;
+  border: 1px solid rgb(209, 202, 202);
+  padding: 20px;
+  align-items: center;
+}
+
+.nt-skill-img{
+  flex-basis: 20%;
+}
+.nt-skill-img img{
+  width: 80%;
+}
+.nt-skill-context > p{
+  font-size: 12px;
+}
+
+/*  */
